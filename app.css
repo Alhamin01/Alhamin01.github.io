@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+/* resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* universal styling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #233;
+}
+
+p, a {
+    color: #edf5e1;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(55, 37, 156);
+    width: 100px;
+    text-align:center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.initials h1 {
+    font-size: 2.5rem
+}
+
+a i {
+    font-size: 2rem;
+}
+
+i:hover {
+    color: grey;
+}
+
+.profile-img .container {
+    margin: 0 50px 0px 150px;
+    width: 450px;
+    height: 450px;
+    border: 1px solid #edf5e1;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img .container img {
+    border-radius: 50%;
+    width: 290px;
+    border: 1px saddlebrown solid;
+    padding: 4px;
+    height: 290px;
+}
+
+.about-text {
+    width: 500px;
+    padding: 10px;
+}
+
+.info .intro {
+    font-weight: 900;
+    color: rgb(116, 62, 185);
+    margin-bottom: 15px;
+}
+
+.info .name {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.name span {
+    color: #edf5e1;
+}
+
+.info .info-text {
+    margin-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resume {
+    padding: 10px 20px;
+    background-color: rgb(112, 112, 172);
+    border-radius: 10px;
+    color: rgb(202, 224, 224);
+    font-size: 20px;
+    font-weight: bolds;
+}
+
+.social-icons {
+    margin-right:80px ;
+    
+}
+
+
+.social-icons i {
+    display: inline-block;
+    margin: 0 10px;
+    color: goldenrod;
+}
